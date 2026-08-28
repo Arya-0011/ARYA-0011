@@ -1,855 +1,277 @@
-# 👋 Hi, I'm Arya Aniket
+<div align="center">
 
-### Backend Engineer · DevOps · Cloud · Distributed Systems · AI-assisted Engineering
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:8957E5&height=190&section=header&text=Arya%20Aniket&fontColor=FFFFFF&fontSize=52&fontAlignY=34&desc=Backend%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Cloud%20%26%20DevOps&descAlignY=55&descSize=16" width="100%" alt="Arya Aniket" />
 
-I build **backend systems, developer infrastructure, automation workflows, and cloud-native applications**.
+<a href="https://github.com/Arya-0011">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=1F6FEB&center=true&vCenter=true&width=680&height=45&lines=Backend+Engineer+%7C+DevOps+%26+Cloud;Kafka+%C2%B7+NestJS+%C2%B7+Kubernetes+%C2%B7+AWS;I+build+systems%2C+then+automate+them;Exploring+AI-assisted+software+engineering" alt="What I do" />
+</a>
 
-My primary focus is the intersection of:
+<br/>
 
-```text
-Backend Engineering
-        +
-Distributed Systems
-        +
-DevOps & Cloud
-        +
-Developer Automation
-        +
-AI-assisted Software Engineering
-```
+<a href="https://linkedin.com/in/arya-aniket2001/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:aryaaniket2001@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://x.com/aryaaniket2001"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://github.com/Arya-0011"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-I enjoy understanding how systems work underneath the abstractions — from APIs and databases to containers, Kubernetes, service meshes, CI/CD pipelines, observability, messaging systems, and increasingly **AI agents and developer tooling**.
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Arya-0011&style=flat-square&color=1F6FEB&label=Profile+Views" alt="Profile views" />
+<img src="https://img.shields.io/badge/Based%20in-Noida,%20India-1F6FEB?style=flat-square" alt="Location" />
+<img src="https://img.shields.io/badge/Open%20to-Backend%20%2F%20Platform%20roles-2EA043?style=flat-square" alt="Open to work" />
+
+</div>
 
 ---
 
-## 🧭 What I Do
+## 👋 About
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                       ENGINEERING                            │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  ⚙️ Backend          Build APIs, services & microservices    │
-│                                                              │
-│  📨 Distributed      Kafka, Redis, queues & event systems    │
-│     Systems                                                  │
-│                                                              │
-│  ☁️ Cloud & DevOps   Docker, Kubernetes, AWS & IaC          │
-│                                                              │
-│  🔄 Automation       CI/CD, GitHub automation & tooling     │
-│                                                              │
-│  📊 Observability    Metrics, logs, tracing & monitoring     │
-│                                                              │
-│  🔐 DevSecOps        Security integrated into delivery      │
-│                                                              │
-│  🤖 AI Engineering   Agents, MCP & AI coding workflows       │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
+I build **backend services and the infrastructure that runs them** — APIs, event-driven systems, containers, pipelines and the observability that makes them debuggable in production.
+
+Most of my work lives at the seam between **application code and the platform underneath it**: NestJS and Node services talking over Kafka and Redis, packaged in Docker, shipped through CI/CD onto Kubernetes, and watched through Prometheus and Grafana.
+
+Lately I've been pulling a third thread into that: **AI-assisted software engineering** — not "ask an AI to write code", but designing the context, tools and verification loops that make an agent behave like a competent engineer.
+
+```
+Backend  ×  Distributed Systems  ×  Cloud & DevOps  ×  AI-assisted Engineering
 ```
 
 ---
 
-# 🚀 Currently Building & Exploring
+## ⚙️ What I Work On
 
-### 🤖 AI-assisted Software Engineering
+<table>
+<tr>
+<td width="33%" valign="top">
 
-I'm increasingly interested in **how AI can change the software development process itself**, not just generate code.
+### 🧩 Backend
+Services & APIs that hold up
 
-Current areas of exploration include:
+- REST APIs & microservices
+- NestJS / Node.js / TypeScript
+- PostgreSQL, Redis, Prisma
+- Auth, background workers
+- Clean service boundaries
+- Caching & performance
 
-- AI coding agents
-- Claude Code
-- Kiro
-- MCP
-- Agent workflows
-- Context engineering
-- Codebase knowledge graphs
-- AI-assisted code navigation
-- AI-assisted code review
-- Token/context optimization
-- Developer productivity tooling
-- Agent-specific instructions and skills
-- Automated development workflows
+</td>
+<td width="33%" valign="top">
 
-I'm particularly interested in the architecture behind systems such as **Graphify**, **Ponytail**, MCP-based tooling, and agent-specific workflows — and how these ideas can be combined into practical engineering environments.
+### 📨 Distributed Systems
+Things talking to things
 
-```text
-                     Developer
-                         │
-                         ▼
-                ┌─────────────────┐
-                │   AI Coding     │
-                │     Agent       │
-                └────────┬────────┘
-                         │
-            ┌────────────┼────────────┐
-            │            │            │
-            ▼            ▼            ▼
-        Codebase       Tools        Context
-        Knowledge       MCP        / Memory
-            │            │            │
-            └────────────┼────────────┘
-                         │
-                         ▼
-                 Development Loop
-                         │
-              ┌──────────┴──────────┐
-              ▼                     ▼
-          Generate                Verify
-              │                     │
-              └──────────┬──────────┘
-                         ▼
-                    Ship Faster
-```
-
----
-
-# 🧠 My Engineering Interests
-
-I tend to gravitate toward systems where multiple pieces have to work together.
-
-### Backend
-
-- REST APIs
-- Microservices
-- Modular architecture
-- Authentication & authorization
-- Event-driven systems
-- API design
-- Background workers
-- Distributed services
-- Performance optimization
-
-### Distributed Systems
-
-- Apache Kafka
-- Redis
+- Apache Kafka producers/consumers
+- Topics, partitions, consumer groups
 - Event-driven architecture
-- Message queues
-- Service-to-service communication
-- Distributed caching
-- Data consistency
+- Idempotency & retries
+- Dead-letter queues
 - Failure handling
 
-### Cloud & Infrastructure
+</td>
+<td width="33%" valign="top">
 
-- AWS
-- Docker
-- Kubernetes
-- Terraform
-- Ansible
-- Vagrant
-- Nginx
-- Apache
-- Cloudflare
-- DigitalOcean
-- Vultr
-- Linode
+### ☁️ Cloud & DevOps
+Getting it to production
 
-### DevOps
+- Docker & Kubernetes
+- AWS, Terraform, Ansible
+- CI/CD, GitOps, ArgoCD
+- Prometheus / Grafana / ELK
+- Nginx, Istio, networking
+- DevSecOps in the pipeline
 
-- CI/CD
-- GitHub Actions
-- GitLab CI
-- Jenkins
-- TeamCity
-- ArgoCD
-- GitOps
-- Infrastructure as Code
-- Automated deployments
-- Environment management
-
-### Observability
-
-- Prometheus
-- Grafana
-- Elasticsearch
-- Logging
-- Metrics
-- Monitoring
-- Application diagnostics
-- Production troubleshooting
-
-### Platform & Networking
-
-- Kubernetes networking
-- Istio
-- Service Mesh
-- WireGuard
-- Reverse proxies
-- Container networking
-
-### DevSecOps
-
-- SonarQube
-- SonarLint
-- Security-aware CI/CD
-- Static analysis
-- Secure deployment pipelines
+</td>
+</tr>
+</table>
 
 ---
 
-# ⚙️ Backend Engineering
+## 🚀 Featured Work
 
-My backend work primarily revolves around **TypeScript/Node.js and NestJS**, while I also experiment with other ecosystems.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```text
-Client
-  │
-  ▼
-API Gateway / Reverse Proxy
-  │
-  ▼
-┌────────────────────────────────────┐
-│           Backend Services          │
-│                                    │
-│  NestJS      Node.js      Express  │
-│                                    │
-└───────────────┬────────────────────┘
-                │
-       ┌────────┼─────────┐
-       ▼        ▼         ▼
-    PostgreSQL Redis     Kafka
-       │        │         │
-       └────────┼─────────┘
-                ▼
-        Supporting Services
-                │
-                ▼
-       Docker / Kubernetes
-                │
-                ▼
-       Monitoring & Logging
-```
+#### 🐧 [Linux Tools Installation Scripts](https://github.com/Arya-0011/Linux-Tools-Installation-Scripts)
+Install-and-configure scripts for just about every tool an ops engineer reaches for. The thing I actually run on a fresh box.
 
-I'm especially interested in:
+`Shell` `Linux` `Automation` `DevOps`
 
-- Clean service boundaries
-- Microservice architecture
-- Database design
-- Caching strategies
-- Event-driven communication
-- API performance
-- Background processing
-- Observability
-- Production debugging
-- Deployment architecture
+</td>
+<td width="50%" valign="top">
 
----
+#### 🔐 [DevSecOps](https://github.com/Arya-0011/DevSecOps)
+Practices and tooling for folding security into the delivery pipeline instead of bolting it on at the end.
 
-# 📨 Event-Driven Architecture
+`CI/CD` `SonarQube` `Static Analysis` `Security`
 
-Apache Kafka and event-driven systems are an area I'm actively exploring.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-The architecture I'm interested in looks roughly like:
+#### 🎬 [DevSecOps Netflix Clone](https://github.com/Arya-0011/DevSecOps-Netflix-Clone)
+An end-to-end secure delivery pipeline built around a real app — lint, scan, build, containerize, deploy.
 
-```text
-                 ┌───────────────┐
-                 │   Service A   │
-                 └───────┬───────┘
-                         │
-                         ▼
-                  ┌─────────────┐
-                  │    Kafka    │
-                  │   Topics    │
-                  └──────┬──────┘
-                         │
-             ┌───────────┼───────────┐
-             ▼           ▼           ▼
-        Service B   Service C   Service D
-             │           │           │
-             ▼           ▼           ▼
-          Redis       Database     Search
-```
+`TypeScript` `Docker` `Kubernetes` `Jenkins`
 
-Areas I'm interested in:
+</td>
+<td width="50%" valign="top">
 
-- Producers & consumers
-- Topics & partitions
-- Consumer groups
-- Event-driven microservices
-- Retry strategies
-- Idempotency
-- Dead-letter queues
-- Ordering
-- Event processing
-- Distributed failure handling
+#### 🏗️ [Terraform + Jenkins on EC2](https://github.com/Arya-0011/devops-terraform-python-project)
+Infrastructure-as-code provisioning plus a Jenkins pipeline that deploys a Python REST API to EC2.
+
+`Terraform` `HCL` `Jenkins` `AWS`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 📊 [Cloud-Native Monitoring App](https://github.com/Arya-0011/boto3-cloud-native-monitoring-app)
+A monitoring app wired up with boto3 and AWS services — metrics from the inside out.
+
+`Python` `boto3` `AWS` `Observability`
+
+</td>
+<td width="50%" valign="top">
+
+#### ☸️ [WordPress on Kubernetes](https://github.com/Arya-0011/wordpress-kubernetes)
+Stateful workloads on K8s: deployments, services, persistent volumes and ingress done properly.
+
+`Kubernetes` `Shell` `Storage` `Ingress`
+
+</td>
+</tr>
+</table>
 
 ---
 
-# ☸️ Kubernetes & Cloud Native
+## 🤖 AI-Assisted Engineering
 
-I'm interested in moving beyond simply running containers and understanding the **platform layer underneath production applications**.
+The interesting question isn't *"can an AI write this function?"* — it's:
 
-Current areas:
+> **How do you give an agent the right context, tools, constraints and feedback so it behaves like an effective engineer?**
 
-- Kubernetes
-- Deployments
-- Services
-- Ingress
-- ConfigMaps
-- Secrets
-- Persistent storage
-- Horizontal scaling
-- Service discovery
-- Helm
-- GitOps
-- ArgoCD
-- Kubernetes networking
-- Istio
-- Service Mesh
+That leads somewhere concrete: graph-based codebase context instead of blind repo search, MCP servers as the tool layer, agent skills as the rules layer, and automated verification before anything reaches a commit.
 
-My mental model:
+<div align="center">
 
-```text
-                    Kubernetes
-                        │
-        ┌───────────────┼────────────────┐
-        │               │                │
-      Compute         Network          Storage
-        │               │                │
-     Pods/Nodes      Services        Volumes
-        │               │
-        └───────┬───────┘
-                │
-             Istio
-                │
-        ┌───────┴────────┐
-        │                │
-   Traffic Control   Observability
-        │                │
-        ▼                ▼
-    Resilience      Prometheus
-    Security        Grafana
-    Routing         Logs
-```
+| Layer | What it solves | What I'm using |
+|:--|:--|:--|
+| **Context** | Stop re-reading the whole repo | Code knowledge graphs, Graphify |
+| **Tools** | Give the agent real capabilities | MCP servers |
+| **Rules** | Make behaviour repeatable | Agent skills & instructions |
+| **Verification** | Trust, but test | Lint, tests, CI gates |
+
+</div>
+
+Also running local models (Ollama, Qwen3) on constrained hardware, and generally poking at where AI actually earns its place in a dev workflow.
 
 ---
 
-# 🔄 DevOps & Automation
+## 🧰 Stack
 
-I enjoy automating repetitive engineering tasks.
+<div align="center">
 
-Areas I've worked with:
-
-- GitHub automation
-- CI/CD pipelines
-- Deployment automation
-- Infrastructure provisioning
-- Linux automation
-- Shell scripting
-- Git workflows
-- Environment setup
-- Developer tooling
-- Infrastructure as Code
-
-### Tooling
-
-`GitHub Actions` · `GitLab CI` · `Jenkins` · `TeamCity` · `Terraform` · `Ansible` · `Docker` · `Kubernetes`
-
----
-
-# 📊 Observability
-
-A system isn't really production-ready if you can't understand what it is doing.
-
-I'm interested in the full observability pipeline:
-
-```text
-Application
-    │
-    ├──────────────► Logs
-    │                  │
-    │                  ▼
-    │            Elasticsearch
-    │
-    ├──────────────► Metrics
-    │                  │
-    │                  ▼
-    │              Prometheus
-    │                  │
-    │                  ▼
-    │               Grafana
-    │
-    └──────────────► Traces
-                       │
-                       ▼
-                  Distributed
-                   Debugging
-```
-
-Areas I'm exploring:
-
-- Application logging
-- Structured logs
-- Metrics
-- Dashboards
-- Alerting
-- Performance monitoring
-- Distributed systems debugging
-- Production diagnostics
-
----
-
-# 🔐 DevSecOps
-
-I don't see security as a separate step at the end of the pipeline.
-
-The goal is:
-
-```text
-Code
- │
- ▼
-Lint
- │
- ▼
-Test
- │
- ▼
-Static Analysis
- │
- ▼
-Security Checks
- │
- ▼
-Build
- │
- ▼
-Container
- │
- ▼
-Deploy
- │
- ▼
-Monitor
-```
-
-Tools I've worked with / explored include:
-
-`SonarQube` · `SonarLint` · `GitHub Actions` · `GitLab CI` · `Docker` · `Kubernetes`
-
----
-
-# 🧰 Technology Stack
-
-## Languages
+**Languages**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-121011?style=flat-square&logo=gnu-bash&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white)
 
-## Backend
+**Backend & Data**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-
-## Databases & Data
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 
-## Messaging & Distributed Systems
-
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-## Cloud & Infrastructure
+**Cloud, Infra & CI/CD**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
-
-## CI/CD & GitOps
-
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![TeamCity](https://img.shields.io/badge/TeamCity-000000?style=flat-square&logo=teamcity&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-## Observability
+**Observability & Platform**
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-
-## Networking & Platform
-
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
 ![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat-square&logo=istio&logoColor=white)
 ![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-## Developer Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+</div>
 
 ---
 
-# 🧪 Selected Projects
-
-## 🐧 Linux Tools & Installation Scripts
-
-A collection of scripts for installing and configuring commonly used Linux and DevOps tooling.
-
-**Focus:** Linux · Shell · DevOps · Automation
-
-🔗 [View repository](https://github.com/Arya-0011/Linux-Tools-Installation-Scripts)
-
----
-
-## ⚙️ GitHub Automation
-
-Automation experiments around GitHub workflows and repository maintenance.
-
-**Focus:** GitHub APIs · Automation · Developer Productivity
-
-🔗 [View repository](https://github.com/Arya-0011/github-automation)
-
----
-
-## 🔐 DevSecOps
-
-A collection of DevSecOps learning material, tooling and practices around integrating security into the software delivery lifecycle.
-
-**Focus:** DevOps · Security · CI/CD · Automation
-
-🔗 [View repository](https://github.com/Arya-0011/DevSecOps)
-
----
-
-# 🤖 AI Developer Tooling
-
-I'm also building a personal ecosystem around **AI-assisted development**.
-
-The goal isn't simply:
-
-> "Ask an AI to write code."
-
-The interesting problem is:
-
-> **How do we give an AI agent the right context, tools, constraints and feedback so that it behaves more like an effective software engineer?**
-
-This leads me toward:
+## 📌 Currently
 
 ```text
-             AI Coding Agent
-                    │
-          ┌─────────┼─────────┐
-          │         │         │
-       Context     Tools    Rules
-          │         │         │
-          ▼         ▼         ▼
-       Graphify    MCP     Agent Skills
-          │         │         │
-          └─────────┼─────────┘
-                    │
-                    ▼
-             Code Generation
-                    │
-                    ▼
-              Verification
-                    │
-                    ▼
-                 Commit
-                    │
-                    ▼
-                 CI/CD
-```
-
-Areas I'm experimenting with include:
-
-- Kiro
-- Claude Code
-- MCP
-- Graph-based code context
-- Agent skills
-- Agent instructions
-- Codebase navigation
-- AI-powered development workflows
-- Token-efficient context
-- Automated verification
-- Developer productivity systems
-
----
-
-# 🧠 Graph-Based Code Understanding
-
-One of the areas I'm particularly interested in is using **graphs to understand codebases**.
-
-Instead of asking an agent to repeatedly search through an entire repository:
-
-```text
-Repository
-    │
-    ▼
-AST / Source Analysis
-    │
-    ▼
-Knowledge Graph
-    │
-    ├── Files
-    ├── Classes
-    ├── Functions
-    ├── Imports
-    ├── Calls
-    ├── Dependencies
-    └── Relationships
-            │
-            ▼
-       Agent Query
-            │
-            ▼
-      Relevant Context
-```
-
-This can potentially reduce unnecessary context while making architectural relationships easier for an agent to understand.
-
-I'm exploring this space through tools and workflows involving **Graphify, MCP and AI coding agents**.
-
----
-
-# 🧩 AI Coding Workflow
-
-My current approach is evolving toward a multi-layer development workflow:
-
-```text
-                    ┌───────────────┐
-                    │   Developer   │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │ AI Agent / IDE│
-                    └───────┬───────┘
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-          Context          Tools          Rules
-             │              │              │
-          Graphify          MCP        Agent Skills
-             │              │              │
-             └──────────────┼──────────────┘
-                            ▼
-                    Implementation
-                            │
-                            ▼
-                    Tests / Linting
-                            │
-                            ▼
-                       Verification
-                            │
-                            ▼
-                          Git
-                            │
-                            ▼
-                         CI/CD
-```
-
-I'm interested in making this workflow **repeatable, observable and maintainable**, rather than relying entirely on ad-hoc prompting.
-
----
-
-# 📚 Currently Learning
-
-### Deepening
-
-- Kubernetes
-- Apache Kafka
-- NestJS architecture
-- Microservices
-- Distributed systems
-- AWS
-- CI/CD
-- Observability
-- Infrastructure as Code
-
-### Exploring
-
-- Istio
-- Service Mesh
-- ArgoCD
-- GitOps
-- MLOps
-- AI agents
-- MCP
-- AI developer tooling
-- Local model inference
-- LLM application architecture
-
----
-
-# 🗺️ My Learning Path
-
-```text
-Backend
-   │
-   ▼
-APIs & Databases
-   │
-   ▼
-Microservices
-   │
-   ▼
-Messaging & Distributed Systems
-   │
-   ▼
-Docker
-   │
-   ▼
-Kubernetes
-   │
-   ├──────────────► Observability
-   │
-   ├──────────────► Service Mesh
-   │
-   └──────────────► GitOps
-                         │
-                         ▼
-                       Cloud
-                         │
-                         ▼
-                       MLOps
-                         │
-                         ▼
-                  AI Engineering
-                         │
-                         ▼
-                AI-assisted Development
+🔭  Deepening    Kubernetes · Kafka · NestJS architecture · AWS · Observability
+🧪  Exploring    Istio & service mesh · ArgoCD & GitOps · MCP · agent workflows
+🛠️  Building     DevOps tooling · GitHub automation · AI-assisted dev workflows
+📚  Method       Build it. Break it. Understand it. Automate it.
 ```
 
 ---
 
-# 🏗️ Engineering Philosophy
+## 🧭 How I Work
 
-### 01 — Understand the system
-
-I like knowing what happens underneath the abstraction.
-
-### 02 — Automate repetitive work
-
-If something has to be repeated often, it probably deserves automation.
-
-### 03 — Observe everything important
-
-A production system should make it possible to understand what went wrong.
-
-### 04 — Keep systems simple
-
-Complexity should have a reason.
-
-### 05 — Learn by building
-
-I prefer experimenting with real systems instead of only reading about them.
-
-### 06 — Use AI as an engineering tool
-
-AI should improve the engineering process — not replace engineering thinking.
+**Understand the system.** I like knowing what happens underneath the abstraction.
+**Automate the repetition.** If it happens often, it deserves a script.
+**Make it observable.** A production system should be able to tell you what went wrong.
+**Keep it simple.** Complexity should have to justify itself.
 
 ---
 
-# 📈 GitHub Activity
+## 📈 GitHub
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Arya-0011&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arya-0011&layout=compact&hide_border=true&theme=transparent" height="165">
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Arya-0011&hide_border=true&theme=transparent" />
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=Arya-0011&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&title_color=1F6FEB&icon_color=8957E5" height="160" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arya-0011&layout=compact&hide_border=true&theme=transparent&title_color=1F6FEB&langs_count=8" height="160" alt="Top languages" />
 
----
+<br/>
 
-# 🏆 GitHub
+<img src="https://streak-stats.demolab.com?user=Arya-0011&hide_border=true&theme=transparent&ring=1F6FEB&fire=8957E5&currStreakLabel=1F6FEB" height="160" alt="Streak" />
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Arya-0011&theme=flat&no-frame=true&no-bg=true&margin-w=10" />
-</p>
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arya-0011&hide_border=true&theme=github-compact&color=1F6FEB&line=8957E5&point=FFFFFF" width="90%" alt="Contribution graph" />
+
+</div>
 
 ---
 
-# 📊 Contribution Graph
+## 💼 Open to Work
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Arya-0011&hide_border=true&theme=github-compact" />
-</p>
+I'm open to **Backend, Platform and DevOps engineering** roles, and to collaborating on **developer tooling and AI-assisted engineering** projects.
 
----
+<div align="center">
 
-# 🌐 Connect With Me
+<a href="mailto:aryaaniket2001@gmail.com"><img src="https://img.shields.io/badge/Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" /></a>
+<a href="https://linkedin.com/in/arya-aniket2001/"><img src="https://img.shields.io/badge/Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
-<p align="center">
+<br/><br/>
 
-<a href="mailto:aryaaniket2001@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957E5,55:1F6FEB,100:0D1117&height=110&section=footer" width="100%" alt="" />
 
-<a href="https://linkedin.com/in/arya-aniket2001/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://x.com/aryaaniket2001">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-
-<a href="https://github.com/Arya-0011">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</p>
-
----
-
-# 💬 A Few Things About Me
-
-```text
-⚙️ Backend > Frontend
-
-☁️ DevOps isn't just deployment —
-   it's understanding the entire system.
-
-🧠 I enjoy understanding how systems work
-   underneath the abstraction.
-
-🤖 Currently fascinated by AI coding agents
-   and developer tooling.
-
-🐧 Linux + automation + containers
-   is a combination I genuinely enjoy.
-
-📚 Most of my learning happens by building,
-   breaking, debugging and rebuilding.
-```
-
----
-
-<p align="center">
-
-### "Build it. Break it. Understand it. Automate it."
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=Arya-0011&style=flat-square&color=blue" alt="Profile views"/>
-
-</p>
+</div>
